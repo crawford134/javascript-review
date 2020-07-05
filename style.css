@@ -1,1 +1,30 @@
 
+/* remove all basic styling by adding the star */
+
+*{
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+/* Do we want a min-height in the case of a mobile version? */
+
+body{
+  background-image: linear-gradient(120deg,#ccf4ff, #12b4e0);
+  color: #50595c; 
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh; 
+}
+
+header{
+  font-size: 1.5rem; 
+}
+
+/* Applies to both the header and the form */
+
+header,form{
+  min-height: 20vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
