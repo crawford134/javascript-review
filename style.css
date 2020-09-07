@@ -28,3 +28,24 @@ header,form{
   justify-content: center; 
   align-items: center; 
 }
+
+form input, form button{
+  padding: 0.5rem; 
+  font-size: 2rem; 
+  border: none; 
+  background: #fff;
+}
+
+form button{
+  color: #12b4e0;
+  background: #fff; 
+  cursor: pointer;  /* makes it look clickable */
+  transition: all 0.3s ease;
+}
+
+/* add the transition button hover */
+
+form button:hover{
+  background: #12b4e0; 
+  color: #fff;
+}
