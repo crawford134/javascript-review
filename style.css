@@ -49,3 +49,42 @@ form button:hover{
   background: #12b4e0; 
   color: #fff;
 }
+
+.todo-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+
+.todo{
+  margin: 0.5rem; 
+  background: #fff; 
+  color: #000; 
+  font-size: 1.5rem; 
+  display: flex;           /* all the items will be in line beside each other */ 
+  justify-content: space-between; /* adds an even amount of space between all of the items in the div */
+  align-items: center; 
+}
+
+/*only the list of the todo*/ 
+
+.todo li{
+  flex: 1; /* going to align all the buttons at the end of the div*/
+}
+
+.trash-btn, .complete-btn{
+  background: #ff6f47; 
+  color: white; 
+  border: none; 
+  padding: 1rem; 
+  cursor: pointer; /* this allows you to click on them */ 
+  font-size: 1rem; 
+}
+.complete-btn{
+  background: rgb(73, 204, 73); 
+}
