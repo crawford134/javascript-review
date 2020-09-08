@@ -50,3 +50,10 @@ function addTodo(event){
   todoInput.value = "";
 
 }
+
+/*
+Add the delete functionality. We're going to be listening to what we're clicking on then act based on that.   
+*/
+
+
+
